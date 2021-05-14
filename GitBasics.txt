@@ -17,3 +17,20 @@ If Author Information not found it can be configured as follow
 git config user.name 'Member'
 git config user.email 'Member@gmail.com'
 
+
+
+# To Ignore Certain file or files not to be committed then create .gitignore file
+in that .gitignore file add the file names which you dont like to be added or it folder means specify folder name/. as like
+
+
+# Branch creation is used for execution at different versions and so on...
+To know the branches
+git branch
+
+
+#To  Create new branch
+git branch <NEW Branch Name>
+
+# To jump into new branch
+git checkout <NEW Branch Name>
+
