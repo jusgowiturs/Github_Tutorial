@@ -37,3 +37,16 @@ git checkout <NEW Branch Name>
 # But in this method if we check out to main or master we can regain back to last position committed
 #If you dont want to return back then use reset hard to check out
 git reset --hard <COMMIT ID>
+
+
+
+# TO Navigate from Main to Branch and viceversa use following command
+git checkout <main or Branch Name>
+
+
+# To create and also to Navigate into it
+git checkout -b <BRANCH NAME>
+
+
+# To merge branch to main
+git merge <BRANCH NAME>
