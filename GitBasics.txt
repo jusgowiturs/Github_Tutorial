@@ -1,0 +1,19 @@
+# To Create new file use touch/nano or any other editor
+git add <FILE Name>          For tracing of FILE Name file  
+git add *.<FILE Extensions>  For certain files to be traced
+
+# TO Know the log info, Commit it
+git commit <FILE Name> -m "MESSAGE"  -m meant for message and following to be message
+
+
+git log 
+Gives Log info like commit ID (HEAD-Master or Main)
+Author Information
+Date Information
+
+
+If Author Information not found it can be configured as follow
+
+git config user.name 'Member'
+git config user.email 'Member@gmail.com'
+
