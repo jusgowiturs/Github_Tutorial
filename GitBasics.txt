@@ -50,3 +50,39 @@ git checkout -b <BRANCH NAME>
 
 # To merge branch to main
 git merge <BRANCH NAME>
+
+
+# Look log info of committed using any one of the following command
+git log
+git log --oneline
+
+
+# To replicate the changes commit it as follow
+git status
+git commit -a -m "Branch command related syntax added"
+git log --oneline
+
+
+# Remote Repository by log on in github using your github logins and use the following command
+git remote add origin <YOUR NEW REPOSITORY HTTP LINK>
+#Eg.
+git remote add origin https://github.com/jusgowiturs/Github_Tutorial.git
+
+# USE PUSH command to send local repository to remote repository
+#Here following command will push all files in main branch
+# For corresponding branch to push checkout to certain branch and then push
+git push -u origin main
+git push origin main
+git branch
+# READ ME File is useful for others to know about your repository 
+touch README.md
+nano README.md
+git status
+git add README.md
+git commit -a -m 'READ ME FILE IS Created'
+
+
+
+ 
+
+
