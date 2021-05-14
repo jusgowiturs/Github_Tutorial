@@ -34,3 +34,6 @@ git branch <NEW Branch Name>
 # To jump into new branch
 git checkout <NEW Branch Name>
 
+# But in this method if we check out to main or master we can regain back to last position committed
+#If you dont want to return back then use reset hard to check out
+git reset --hard <COMMIT ID>
