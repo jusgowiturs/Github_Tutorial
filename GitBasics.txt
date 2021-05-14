@@ -83,6 +83,12 @@ git commit -a -m 'READ ME FILE IS Created'
 
 
 
+# To download this repository as clone to your local repository .. Similarly Try to use other remote repository to be downloaded into your local repository, can try following command
+git clone https://github.com/jusgowiturs/Github_Tutorial.git
+
+
+
+
  
 
 
